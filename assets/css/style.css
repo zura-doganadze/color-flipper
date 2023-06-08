@@ -1,4 +1,6 @@
-
+body {
+    background-color: rgb(229, 236, 236);
+}
 .active {
     border-bottom: 3px solid gray;
 }
@@ -8,10 +10,12 @@
     justify-content: center;
     justify-content: space-around;
     font-size: 22px;
+    font-weight: 700;
     font-family: sans-serif;
     text-transform: capitalize;
     padding: 30px 0;
     border-bottom: 3px solid rgb(124, 121, 121);
+    background-color: white;
 }
 .header-container nav ul {
     display: flex;
@@ -26,6 +30,7 @@
     color: blue;
 }
 /* conteiner */
+
 .color-container {
     margin-top: 200px;
     display: flex;
@@ -50,6 +55,7 @@
     margin-top: 40px;
     padding: 10px 20px;
     font-size: 22px;
+    font-weight: 600;
     text-transform: uppercase;
     font-family: sans-serif;
     cursor: pointer;
